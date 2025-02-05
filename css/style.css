@@ -120,7 +120,7 @@
         padding: 0;
     }
 
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -149,7 +149,7 @@
         opacity: 0;
         visibility: hidden;
         transition: .5s;
-        
+
     }
 
     .navbar .nav-item:hover .dropdown-menu {
@@ -203,7 +203,7 @@
     }
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: #DDDDDD;
 }
 
@@ -320,6 +320,34 @@
     color: var(--secondary) !important;
 }
 
+/*** Team Coaches***/
+.coach-item {
+    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.coach-item .btn {
+    color: var(--primary);
+    background: #FFFFFF;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .15);
+}
+
+.coach-item .btn:hover {
+    color: #FFFFFF;
+    background: var(--primary);
+}
+
+.coach-item:hover {
+    border-color: var(--secondary) !important;
+}
+
+.coach-item:hover .bg-primary {
+    background: var(--secondary) !important;
+}
+
+.coach-item:hover .bg-primary i {
+    color: var(--secondary) !important;
+}
 
 /*** Testimonial ***/
 .testimonial-carousel {
@@ -379,7 +407,7 @@
     align-items: center;
     justify-content: center;
     color: var(--light);
-    border: 1px solid rgba(255,255,255,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 35px;
     transition: .3s;
 }
@@ -414,7 +442,7 @@
 }
 
 .footer .form-control {
-    border-color: rgba(255,255,255,0.5);
+    border-color: rgba(255, 255, 255, 0.5);
 }
 
 .footer .copyright {
